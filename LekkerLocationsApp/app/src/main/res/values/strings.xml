@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LekkerLocationsApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="searchHere">Search here...</string>
+    <string name="places_key">AIzaSyAc2i5kpsDJAJDkirJq6HnOFI9CxEKJI_M</string>
+</resources>

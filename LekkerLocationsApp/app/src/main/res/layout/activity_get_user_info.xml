@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".GetUserInfoActivity">
+
+   <LinearLayout
+       android:layout_centerInParent="true"
+       android:orientation="vertical"
+       android:layout_margin="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <EditText
+           android:background="@drawable/edittextshape"
+           android:padding="10dp"
+           android:textSize="18sp"
+
+           android:id="@+id/nameEt"
+           android:textColor="@color/black"
+           android:hint="First Name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </EditText>
+
+       <EditText
+           android:background="@drawable/edittextshape"
+           android:padding="10dp"
+           android:inputType="text"
+           android:layout_marginTop="10dp"
+           android:textSize="18sp"
+
+           android:id="@+id/surnameEt"
+           android:textColor="@color/black"
+           android:hint="Surname"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </EditText>
+
+       <EditText
+           android:background="@drawable/edittextshape"
+           android:padding="10dp"
+           android:inputType="text"
+           android:layout_marginTop="10dp"
+           android:textSize="18sp"
+
+           android:id="@+id/dobEt"
+           android:textColor="@color/black"
+           android:hint="Date of birth"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </EditText>
+
+
+
+       <EditText
+           android:background="@drawable/edittextshape"
+           android:padding="10dp"
+           android:inputType="text"
+           android:layout_marginTop="10dp"
+           android:textSize="18sp"
+
+           android:id="@+id/waEt"
+           android:textColor="@color/black"
+           android:hint="Work address"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </EditText>
+
+
+       <EditText
+           android:background="@drawable/edittextshape"
+           android:padding="10dp"
+           android:inputType="text"
+           android:layout_marginTop="10dp"
+           android:textSize="18sp"
+
+           android:id="@+id/haEt"
+           android:textColor="@color/black"
+           android:hint="Home address"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </EditText>
+
+
+       <Button
+           android:textSize="20sp"
+
+           android:id="@+id/complainBtn"
+           android:text="Continue"
+           android:onClick="continueBtn"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginTop="40dp"
+           android:textAllCaps="false"
+           android:background="@drawable/btnshape"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </Button>
+
+
+
+   </LinearLayout>
+
+
+</RelativeLayout>

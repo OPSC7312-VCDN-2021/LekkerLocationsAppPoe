@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "330743864571",
+    "project_id": "dateright-b0b5f",
+    "storage_bucket": "dateright-b0b5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330743864571:android:3372a470dc5132b000645e",
+        "android_client_info": {
+          "package_name": "com.myapp.lekkerlocationsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330743864571-6t4sfb07cfng45ned4tk2e8e72i8scfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8aQjZPQsZUXqtg61Q3TaPYAyfYUWA04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330743864571-6t4sfb07cfng45ned4tk2e8e72i8scfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
